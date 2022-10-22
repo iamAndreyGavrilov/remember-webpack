@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --open",
     "build-dev": "webpack --mode=development",
     "build-prod": "webpack --node-env=production",
     "clear": "rd /s /q dist"
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/iamAndreyGavrilov/remember-webpack#readme",
   "devDependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"

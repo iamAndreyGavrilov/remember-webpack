@@ -1,4 +1,6 @@
 import html from "./index.html";
+// import css from "./index.css";
+import "./index.scss";
 
 const mult = (a, b) => a * b;
 
